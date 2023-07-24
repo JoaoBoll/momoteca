@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./criar-pensamentos.component.css']
 })
 export class CriarPensamentosComponent {
+  pensamento = {
+    id: '1',
+    conteudo: 'Aprendendo Angular',
+    autoria: 'Dev',
+    modelo: ''
+  }
+
+  criarPensamento() {
+    alert("Novo pensamento criado!")
+  }
+
+  cancelar() {
+    alert("Ação cancelada!")
+  }
 
 }
